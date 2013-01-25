@@ -1,0 +1,8 @@
+[Species]
+A = 100
+B = 100
+
+[Reactions]
+A > B  | MA | 10 # k1
+B > A  | MA | 10 # k2
+

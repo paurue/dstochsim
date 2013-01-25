@@ -1,0 +1,4 @@
+[Species]
+A = 1000
+[Reactions]
+A > 0  | MA | 1 # k1

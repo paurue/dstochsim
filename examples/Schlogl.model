@@ -1,0 +1,11 @@
+# Exact Schloegl reaction 
+[Species]
+X = 250
+A = 100000
+B = 200000
+
+[Reactions]
+A + 2*X > 3*X  | MA | 3e-7 # (k1)
+3*X > A + 2*X  | MA | 1e-4 # (k2)
+X > B          | MA | 3.5  # (k3)
+B > X          | MA | 1e-3 # (k4)
